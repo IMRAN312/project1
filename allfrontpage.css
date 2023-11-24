@@ -1,0 +1,42 @@
+.big1{
+border:0px solid red;
+position: relative;
+width: 700px;
+left:60px;
+top:5px
+}
+.big2{
+font-size: 35px;
+color:blue;
+
+}
+.big2:hover{
+    color: red;
+}
+.small1{
+    border: 0px solid red;
+    position: relative;
+    padding:0;
+    width: 870px;
+    left:60px;
+    top:55px;
+}
+.small2{
+    font-size: 35px;
+    color: blue;
+}
+.small2:hover{
+    color: red;
+}
+.small1 .small2{
+    border:0px solid red;
+    position: absolute;
+    width:350px;
+    top:0px;
+    left:390px;
+
+}
+.space{
+    font-size: 20px;
+    color:white;
+}
